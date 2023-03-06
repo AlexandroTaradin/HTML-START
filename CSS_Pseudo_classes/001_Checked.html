@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <title>cheked</title>
+    <style>
+        /*
+
+            :checked псевдокласс, который применяется к элементам интерерфейса
+            (chekbox или radio) когда он находяться в выюраном состоянии  
+            input:checked + span - найти  все span, которые следуют в выбраном input
+
+            */
+
+    input: checked + span {
+            background: #fc0
+    }
+    </style>
+</head>
+<body>
+    <p><strong>Какие курсы Вы прошли в Учебном центре</strong></p>
+    <p>
+        <input type="checkbox" name="a1" checked="checked"><span>HTML&CSS</span><br>
+        <input type="checkbox" name="a2"><span>JAVASCRIPT</span><br>
+        <input type="checkbox" name="a3"><span>jQuery</span><br>
+        <input type="checkbox" name="a4"><span>C# Starter</span><br>
+
+
+    </p>
+    
+</body>
+</html>
